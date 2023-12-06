@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="304.29999" cy="217.300009" fill="#32353a" id="svg_6" r="102.474388" stroke="#32353a" stroke-width="5"/>
+  <rect fill="#32353a" height="92.999999" id="svg_11" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="195.999994" x="206.299997" y="132.30001"/>
+  <ellipse cx="221.299992" cy="312.300008" fill="#32353a" id="svg_12" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(18.1219 221.3 312.3)"/>
+  <ellipse cx="381.800007" cy="310.30002" fill="#32353a" id="svg_13" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(-39.0075 381.8 310.3)"/>
+  <circle cx="304.299991" cy="219.30001" fill="#32353a" id="svg_14" r="83.630142" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+ </g>
+</svg>

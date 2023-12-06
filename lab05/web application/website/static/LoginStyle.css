@@ -1,0 +1,81 @@
+.flash-messages{
+	color: #ffffff;
+}
+
+.container{
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 200px;
+	background-color: #282b30;
+	font-family: CircularStd-Bold, sans-serif;
+	width: 415px;
+	height: 315px;
+}
+
+input {
+	border-radius: 10px;
+    background-color: #32353a;
+	color: #ffffff;
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-left: 55px;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	width: 310px; 
+	font-family: CircularStd-Bold;
+	
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+} 
+input::-moz-placeholder {
+    color: #ffffff;
+}
+.logbtn {
+	background-color: #32353a;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: CircularStd-Bold;
+	
+	margin-bottom: 5px;
+	margin-left: 110px;
+	margin-top: 5px;
+	  
+	border: none;
+	border-radius: 10px;
+  
+	cursor: pointer;
+  
+	width: 200px;
+	height: 45px;
+}
+
+#logLabel{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#accLabel{
+    color: #ffffff;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: bold;
+    font-family: CircularStd-Bold;
+	
+}
+#hreftolog{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#hr1{
+	margin-left: 50px;
+	width: 320px;
+}

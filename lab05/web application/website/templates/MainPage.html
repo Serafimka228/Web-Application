@@ -1,0 +1,73 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<title> Main Page</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='MainPageStyle.css') }}">
+	</head>
+	<body bgcolor="#32353a">
+		<div id="left-block">
+			<div id="search-block">
+				<form method="POST" action="/main"> <!--потом сделать search-->
+					<input type="text" placeholder="Type to search..." name="search_line" id="search-line" required>
+					<!-- <div id="search_img_div">
+						<a class="search_button_href">
+							<img src="../static/img/search_img.jpg" id="search_img" />
+						</a>
+					</div> -->
+				</form>
+			</div>
+			<button type="submit" class="album_button" name="best_tracks_button" id="best_tracks_button">Best tracks</button>
+			<button type="submit" class="album_button" name="best_tracks_button" id="best_tracks_button">Best albums</button>
+			<button type="submit" class="album_button" name="best_tracks_button" id="best_tracks_button">Trending albums</button>
+		</div>
+		<div id="midle-block">
+			<svg width="650" height="650" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+				<g class="layer">
+					<title>Layer 1</title>
+					<circle cx="304.29999" cy="217.300009" fill="#32353a" id="svg_6" r="102.474388" stroke="#32353a" stroke-width="5"/>
+					<rect fill="#32353a" height="92.999999" id="svg_11" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="195.999994" x="206.299997" y="132.30001"/>
+					<ellipse cx="221.299992" cy="312.300008" fill="#32353a" id="svg_12" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(18.1219 221.3 312.3)"/>
+					<ellipse cx="381.800007" cy="310.30002" fill="#32353a" id="svg_13" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(-39.0075 381.8 310.3)"/>
+					<circle cx="304.299991" cy="219.30001" fill="#32353a" id="svg_14" r="83.630142" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+				</g>
+			</svg>
+		</div>
+		<div id="right_block">
+			<div id="username-div"><span></span id="username" name="username">{{user.name}}</div>
+			<a href="/main"> 
+				<svg width="150" height="150" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+					<g class="layer">
+						<title>Layer 1</title>
+						<circle cx="304.29999" cy="217.300009" fill="#32353a" id="svg_6" r="102.474388" stroke="#32353a" stroke-width="5"/>
+						<rect fill="#32353a" height="92.999999" id="svg_11" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="195.999994" x="206.299997" y="132.30001"/>
+						<ellipse cx="221.299992" cy="312.300008" fill="#32353a" id="svg_12" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(18.1219 221.3 312.3)"/>
+						<ellipse cx="381.800007" cy="310.30002" fill="#32353a" id="svg_13" rx="50.999999" ry="33.999999" stroke="#32353a" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(-39.0075 381.8 310.3)"/>
+						<circle cx="304.299991" cy="219.30001" fill="#32353a" id="svg_14" r="83.630142" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+					</g>
+				</svg>
+			</a>
+		</div>
+		<div id="right_lower_block">
+			<button type="submit" class="album_button" name="rated_tracks_button" id="rated_tracks_button">Rated tracks</button>
+			<button type="submit" class="album_button" name="last_rated_button" id="last_rated_button">Last rated tracks</button>
+			<form method="POST" action="/log-out">
+				<a id="log_out" href="/log-out">
+					<svg width="100" height="100" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+						<g class="layer">
+							<title>Layer 1</title>
+							<circle cx="304.29999" cy="217.300009" fill="#32353a" id="svg_6" r="102.474388" stroke="#32353a" stroke-width="5"/>
+							<circle cx="304.299991" cy="219.30001" fill="#32353a" id="svg_14" r="83.630142" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+							<rect fill="#32353a" height="96.999995" id="svg_11" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="65.000002" x="272.299991" y="171.30001"/>
+							<line fill="none" id="svg_19" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="273.299989" x2="314.299989" y1="172.099996" y2="195.099996"/>
+							<line fill="none" id="svg_20" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="272.300009" x2="313.300008" y1="268.599996" y2="291.599996"/>
+							<line fill="none" id="svg_24" stroke="#282b30" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="312.299992" x2="312.299992" y1="194.099997" y2="292.099987"/>
+						</g>
+					   </svg>
+				</a>
+				<!-- <div id="exit_login_button_div">
+					<button id="exit_login_button" name="exit_login_button"></button>
+				</div> -->
+			</form>
+		</div>
+	</body>
+</html>

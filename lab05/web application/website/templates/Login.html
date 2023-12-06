@@ -1,0 +1,32 @@
+<!DOCKTYPE html>
+<hyml>
+	<head>
+		<title> Login</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='LoginStyle.css') }}">
+	</head>
+	<body bgcolor="#32353a">
+		<div class="container">
+			<form method="POST" action="/log-in">
+		        <hr color="#32353a">
+    			<h1 id="logLabel">Log in</h1>
+				{% with messages = get_flashed_messages(with_categories = false) %}
+                	{% if messages %}
+                   	 	<ul class="flash-messages">
+                        	{% for message in messages %}
+                            	<li>{{ message }}</li>
+                        	{% endfor %}
+                    	</ul>
+               	 	{% endif %}
+            	{% endwith %}
+    			<input type="text" placeholder="Login" name="username" required>
+    			<input type="password" placeholder="Password" name="password" required>
+    			<button type="submit" class="logbtn">Sign in</button>
+				<hr color="#32353a" id="hr1">
+				<p id="accLabel">Don't have an account? <a href="sign-up" id="hreftolog">Sign up</a>.</p>
+				<hr color="#32353a">
+			</form>
+  		</div>
+
+  		
+	</body>
+</html>

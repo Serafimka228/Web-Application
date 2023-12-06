@@ -1,0 +1,61 @@
+.container{
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 10%;
+	background-color: #282b30;
+	font-family: CircularStd-Bold, sans-serif;
+	width: 30%;
+	height: 40%;
+
+}
+
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+} 
+input::-moz-placeholder {
+    color: #ffffff;
+}
+.btn {
+	background-color: #32353a;
+	color: #ffffff;
+	font-size:120%;
+	font-weight: bold;
+	font-family: CircularStd-Bold;
+	
+	margin-bottom: 5%;
+	margin-left: 20%;
+
+	  
+	border: none;
+	border-radius: 10px;
+  
+	cursor: pointer;
+  
+	width: 60%;
+	height: 20%;
+}
+
+#MainLabel{
+	margin-left:15%;
+    color: #ffffff;
+}
+#hreftolog{
+	height: 100%;
+	weight: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+#hreftoreg{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.hr1{
+	margin-left: 50px;
+	width: 20px;
+}

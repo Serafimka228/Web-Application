@@ -1,0 +1,440 @@
+#left-block{
+	float: left;
+	display: block;
+	
+	margin-left: 5px;
+	margin-top: 3px;
+	
+	background-color: #282b30;
+	
+	width: 20%;
+	height: 99%;
+	
+	border: none;
+	border-radius: 10px;
+}
+#search-block{
+	margin-left: 3%;
+	margin-top: 3%;
+	
+	width: 95%;
+	height: 50px;
+	background-color: #32353a;
+	
+	border: none;
+	border-radius: 10px;
+}
+
+#search-line{
+	margin-left: 2%;
+	margin-top:1%;
+	
+	width: 95%;
+	height: 80%;
+	
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	
+	color: #ffffff;
+	background-color: #32353a;
+	
+	border: none;
+	border-radius: 10px;
+	
+	float: left;
+	display: block;
+	
+}
+
+#search-line::-webkit-input-placeholder {
+    color: #ffffff;
+} 
+#search-line::-moz-placeholder {
+    color: #ffffff;
+}
+
+.album_button{
+	margin-left: 3%;
+	margin-top:3%;
+	
+	width: 95%;
+	height: 50px;
+	
+	background-color: #32353a;
+	color: #ffffff;
+	
+	cursor: pointer;
+	
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	text-align: left;
+	
+	border: none;
+	border-radius: 10px;
+}
+
+
+
+
+#midle-block{
+	float: left;
+	display: block;
+	
+	margin-left: 10px;
+	margin-top: 3px;
+	
+	background-color: #282b30;
+	
+	width: 60%;
+	height: 99%;
+	
+	border: none;
+	border-radius: 10px;
+}
+
+#album_frame{
+	width: 98%;
+	height: 98%;
+	
+	margin-top: 10px;
+	margin-left: 1%;
+	
+	background-color: #32353a;
+	color: #ffffff;
+	
+	border: none;
+	border-radius: 10px;
+	float: top;
+	display: block;
+	
+	
+}
+
+#album_info_frame{
+	width: 100%;
+	height: 35%;
+	
+	border: none;
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+	
+}
+#album_img_div{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 300px;
+	height: 300px;
+	display: block;
+}
+#album_img{
+	width: 300px;
+	height:300px;
+}
+
+#album_info_div{
+	margin-top: 15px;
+	
+	width: 500px;
+	height: 300px;
+	
+	float: left;
+	display: block;
+}
+
+#album_name{
+	font-family: CircularStd-Bold;
+	font-size: 40px;
+	text-align: left;
+	display: block;
+}
+
+#album_description{
+	margin-top:3%;
+	text-align: left;
+	
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	
+	float: top;
+	display: block;
+	
+}
+
+#album_user_rating{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#list_div{
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	
+	text-decoration: none;
+}
+
+#list_info_div{
+	margin-left:15px;
+	margin-top:60px;
+	
+	width:98%;
+	height:2%;
+	
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+
+#artist_name{
+	float: left;
+	display: block;
+}
+#name{
+	margin-left:200px;
+	display: block;
+}
+
+#avg_rating{
+	margin-left:430px;
+	display: block;
+}
+
+#your_rating{
+	margin-left:20px;
+	display: block;
+	
+}
+#scroll_view{
+	overflow-y: auto;
+	scrollbar-width: thin; /* Hide the scrollbar in most browsers */
+  	scrollbar-color: transparent transparent; /* Hide the scrollbar in Firefox */
+	max-height: 45%;
+}
+
+#scroll_view::-webkit-scrollbar {
+	width: 0; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+}
+
+#list_element{
+	margin-left:15px;
+	margin-top:50px;
+	/* margin-bottom:50px; */
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	color: #ffffff;
+	
+	text-decoration: none;
+	
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+.stat_margin{
+	
+	text-align: center;
+}
+.song_name{
+	max-width: 600px;
+	flex-grow: 5;
+	column-gap: 10px;
+}
+.rating{
+	padding-right: 20px;
+	column-gap: 50px;
+	min-width: 150px;
+	text-align: end;
+	flex-grow: 1;
+	display: flex;
+	justify-content: end;
+}
+.link_default_color{
+	font-family: CircularStd-Bold;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+#right_block{
+	float: left;
+	display: block;
+	
+	margin-left: 10px;
+	margin-top: 3px;
+	
+	background-color: #282b30;
+	
+	width: 18%;
+	height: 15%;
+	
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	column-gap: 20px;
+}
+
+#username-div{
+
+	margin-left: 50px;
+	text-align: center;
+	flex-grow: 1;
+
+	color:#ffffff;
+	display: flex;
+}
+
+#right_lower_block{
+	float: left;
+	display: block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 6px;
+	
+	background-color: #282b30;
+	
+	width: 18%;
+	height: 83%;
+	
+	border: none;
+	border-radius: 10px;
+}
+
+#log_out{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+#rate_window{
+	margin-left:36%;
+	margin-top:15%;
+	margin-bottom: 1%;
+	
+	width: 30%;
+    height: 30%;
+	
+	background-color: #32353a;
+    
+    padding: 15px;
+    border: 10px solid #282b30;
+    border-radius: 15px;
+    
+}
+#rate:target {display: block;}
+
+
+
+.rate_button_href{
+	color: black;
+	text-decoration: none;
+}
+
+.rate_div{
+	width: 9%;
+    height: 17%;
+	margin-left:1%;
+	margin-top:20%;
+	border: none;
+	
+	float: left;
+	display: block;
+}
+#rate_button1{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate1.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+	
+}
+#rate_button2{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate2.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+
+#rate_button3{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate3.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button4{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate4.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button5{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate5.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button6{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate6.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button7{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate7.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+
+#rate_button8{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate8.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button9{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate9.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate_button10{
+	width: 100%;
+    height: 100%;
+	background-image: url('img/rate10.png');
+	background-size: cover;
+	cursor: pointer;
+	border:none;
+}
+#rate{
+	background: rgba(150, 150, 150, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
