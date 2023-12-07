@@ -97,7 +97,7 @@ A manual approach will be used for testing.
 
 ## Test results
 
-The results are presented in the document ["Test results"](https://github.com/Serafimka228/Web-Application/tree/main/lab05/web%20application/Test%20results.md).
+The results are presented in the document ["Test results"]([https://github.com/Serafimka228/Web-Application/tree/main/lab05/web%20application/Test%20results.md](https://github.com/Serafimka228/Web-Application/blob/main/lab06/Test%20results.md)).
 
 ## Conclusion
 
